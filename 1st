@@ -9,7 +9,7 @@ The nextInLine function should then return the element that was removed.
 function nextInLine(arr, item) {
   // Only change code below this line
   arr[arr.length]=item; //adds the element to the end of the array
-  arr.shift(); //removes the first value from the array
+  item=arr.shift(); //removes the first value from the array
 
   return item;
   // Only change code above this line
